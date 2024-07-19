@@ -1,0 +1,214 @@
+/* Etiquetas globales */
+body{
+    background-color: black; 
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    max-width: 90rem;
+    margin: 1rem auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+/* Creando estilos para la sección del aside */
+.content{
+    display: flex;
+    gap: 1rem;
+}
+@media(max-width:768px){
+    .content{
+        flex-direction: column;
+        margin: 0;
+    }
+}
+
+.first-content, .second-content{
+    background-color: #2b2b2b;
+    border-radius: 1rem;
+}
+.first-content{
+    width: 30%;
+}
+@media(max-width:768px){
+    .first-content, .second-content{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+.first-content-two{
+    max-width: 90%;
+    margin: 0 auto;
+}
+@media(max-width:768px){
+    .first-content-two{
+        width: 100%;
+    }
+}
+.data-profile-content{
+    border-bottom: 1px solid #474747;
+    margin: 2rem 0 ;
+}
+.second-content{
+    width: 70%;
+}
+.image-content{
+    display: flex;
+    justify-content: center;
+    background-color: #474747;
+    width: 15rem;
+    height: auto;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: -1rem;
+    padding: 1rem;
+    border-radius: 3rem;
+}
+.image-profile{
+    width: 15rem;
+    height: 69%;
+}
+.content-profile, .profession{
+text-align: center;
+}
+.profession{
+    background-color: #373636;
+    width: 55%;
+    margin: 0 auto;
+    border-radius: 1rem;
+    transition: transform 300ms ease-in-out;
+}
+.profile-text{
+    color: white;
+    padding: .4rem;
+    margin: 0;
+}
+.profession-text{
+    color: #000;
+    margin-top: -.3rem;
+    padding: .4rem;
+    font-weight: bold;
+}
+.profession-text:hover{
+    color: white;
+}
+.profession:hover{
+    background-color: black;
+    transform: scale(1.05);
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-bottom: 1px solid #474747;
+    margin: 2rem 0 ;
+    padding-bottom: 2rem;
+}
+.email, .phone, .birthday, .location{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.email-text, .phone-text, .birthday-text, .location-text{
+    line-height: 1.5px;
+}
+.nav-profile{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    text-align: center; 
+    line-height: 1.5px;
+}
+.facebook, .youtube, .twitter{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.facebook a:hover{
+    color: #0000ff;
+    cursor: pointer;
+}
+.youtube a:hover{
+    color: #ff0000;
+    cursor: pointer;
+}
+.twitter a:hover{
+    color: #000;
+    cursor: pointer;
+}
+/* Creando la segunda seccion de la página */
+
+.second-content{
+    height: 53rem;
+}
+@media(max-width:768px){
+    .second-content{
+        height: auto;
+        max-width: 90%;
+    }
+}
+.second-content-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media(max-width:768px){
+    .second-content-two{
+        flex-direction: column;
+    }
+    .second-content{
+        width: 100%;
+    }
+}
+.nav-two-text{
+    padding-left: 2rem;
+    font-size: 2.5rem;
+    margin: 0;
+    color: white;
+}
+@media(max-width:768px){
+    .nav-two-text{
+        text-align: center;
+        margin: 1rem auto;
+        padding: 0;
+    }
+}
+.nav-two{
+    display: flex;
+    gap: 1rem;
+    background-color: #373636;
+    padding: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+@media (max-width:768px){
+    .nav-two{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-radius: 2rem;
+        margin: 0 auto;
+        width: 30rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+        max-width: 70%;
+        text-align: center;
+    }
+}
+.nav-two a{
+    font-size: 1rem;
+    transition: transform 300ms ease-in-out;
+}
+.nav-two a:hover{
+    color: #ff9300;
+    transform: scale(1.20);
+}
+
+
+
+
